@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My cart - BuyIt</title>
+    <meta name="description" content="We have it, you buy it!" />
+    <meta name="Keywords" content="online shopping,phone,laptop,computer,MP3,CD,VCD,DV,camera,accessory,watch,SD card" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/car.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/myjs.js"></script>
+</head>
+
+<body>
+    <!-- navigation bar start -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>Welcome to BuyIt!</li>
+                    <li>
+                        <a href="#">Log in</a>
+                        <a href="#" class="style-red">register</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="#">My order</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">My BuyIt</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">BuyIt membership</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">Business support</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">About us</a> <i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">Customer service</a> <i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">navigation</a> <i class="icomoon"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- navigation bar end  -->
+
+
+    <div class="car-header">
+        <div class="w">
+            <div class="car-logo">
+                <img src="img/logo.png" alt=""> <b>Cart</b>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="c-container">
+        <div class="w">
+            <div class="cart-filter-bar">
+                <em>All the items</em>
+            </div>
+            <!-- shopping cart -->
+            <div class="cart-warp">
+                <!-- selectall module -->
+                <div class="cart-thead">
+                    <div class="t-checkbox">
+                        <input type="checkbox" name="" id="" class="checkall"> Selectall
+                    </div>
+                    <div class="t-goods">product</div>
+                    <div class="t-price">price</div>
+                    <div class="t-num">number</div>
+                    <div class="t-sum">Subtotal</div>
+                    <div class="t-action">Delete</div>
+                </div>
+                <!-- product detail module -->
+                <div class="cart-item-list">
+                    <div class="cart-item check-cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" checked class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="upload/iphone12.png" alt="">
+                            </div>
+                            <div class="p-msg">Iphone 12</div>
+                        </div>
+                        <div class="p-price">$1999</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">$1999</div>
+                        <div class="p-action"><a href="javascript:;">delete</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="upload/leica.png" alt="">
+                            </div>
+                            <div class="p-msg">Leica M10</div>
+                        </div>
+                        <div class="p-price">$8295</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">$8295</div>
+                        <div class="p-action"><a href="javascript:;">delete</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="upload/harrypotter.png" alt="">
+                            </div>
+                            <div class="p-msg">Harry Potter</div>
+                        </div>
+                        <div class="p-price">$50</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">$50</div>
+                        <div class="p-action"><a href="javascript:;">delete</a></div>
+                    </div>
+                </div>
+
+                <!-- checkout -->
+                <div class="cart-floatbar">
+                    <div class="select-all">
+                        <input type="checkbox" name="" id="" class="checkall">select all
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:;" class="remove-batch"> Delete the chosen item</a>
+                        <a href="javascript:;" class="clear-all">emptycart</a>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="amount-sum">You choose<em>1</em>product</div>
+                        <div class="price-sum">Total: <em>$12.60</em></div>
+                        <div class="btn-area">Purchase</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+    
+    <script>
+        $('.increment').click(function(){           
+            var $val = parseInt( $(this).prev().val());
+            var $price = parseInt($(this).parent().parent().prev().text().replace('$',''));
+            var $sum = parseInt($(this).parent().parent().next().text().replace('$',''));
+            
+            $sum = $price * ($val+1);
+
+            $(this).parent().parent().next().text($sum);
+
+            $val += 1;
+            $(this).prev().val($val);
+        })
+        $('.decrement').click(function(){
+            var $val = $(this).next().val();
+            var $price = parseInt($(this).parent().parent().prev().text().replace('$',''));
+            var $sum = parseInt($(this).parent().parent().next().text().replace('$',''));
+            
+            $sum = $price * ($val-1);
+            $(this).parent().parent().next().text($sum);
+
+            // console.log($val);
+            if($val==0){
+                return;
+            }
+            $val--;
+            $(this).next().val($val);
+        })
+        $('.checkall').click(function(){
+           var $flag = $(this).prop('checked');
+
+            console.log($flag);
+            $('.j-checkbox').prop('checked',$flag);
+            $('.checkall').prop('checked',$flag);
+
+        })
+
+        $('.p-action').click(function(){
+            // console.log(.cart-item .check-cart-item);
+            $(this).parent().remove();
+        })
+
+        $('.clear-all').click(function(){
+            $('.cart-item').remove();
+        })
+
+        $('.j-checkbox').click(function(){
+            var $length = $('.j-checkbox:checked').length;
+            if($length==3){
+                $('.checkall').prop('checked', true);
+            }
+            else{
+                $('.checkall').prop('checked', false);
+            }
+
+            // console.log($('.j-checkbox:checked').length);
+        })
+        $('.remove-batch').click(function(){
+            // console.log('.cart-item"'.length);
+            console.log($(".j-checkbox").prop('checked')[0]);
+            console.log($(".j-checkbox").prop('checked')[1]);
+            console.log($(".j-checkbox").prop('checked')[2]);
+
+            // for(var i=0; i<3; i++){
+            //     if($('j-checkbox')==true)
+            // }
+        })
+    </script>
+</body>
+
+</html>
